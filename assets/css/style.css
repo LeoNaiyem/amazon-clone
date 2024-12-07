@@ -1,0 +1,83 @@
+body {
+  background: #e3e6e6;
+}
+header p,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.logo-container {
+  width: 250px;
+}
+.search-container {
+  width: calc(100% - 750px);
+  height: 50px;
+}
+.s-dropdown {
+  border-radius: 0.25rem 0 0 0.25rem;
+  height: 100%;
+  background: #e6e6e6;
+}
+
+.s-dropdown:hover {
+  background: #e6e6e6;
+}
+.search-container input {
+  padding-left: 50px !important ;
+  outline: none;
+  border: 2px solid transparent !important;
+}
+.search-container input:focus {
+  outline: 2px solid #a9176f !important;
+}
+.t-s-button {
+  border-radius: 0 4px 4px 0;
+  background: #a9176f;
+}
+.top-bar-right {
+  width: 450px;
+}
+.bi-cart2::before {
+  content: "\f243";
+  font-size: 40px;
+}
+.top-bar-right small {
+  font-size: 12px;
+  margin-bottom: -5px;
+}
+.top-bar-right p {
+  margin-top: -2px !important;
+  font-size: 15px;
+}
+.container {
+  max-width: 1520px;
+}
+.card-body small {
+  color: #1f8294;
+}
+.col-3 > .card > img {
+  height: 310px;
+  object-fit: cover;
+}
+.card > img {
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+.card > img:hover {
+  transform: scale(0.98);
+}
+.col h6 {
+  color: #dddddd !important;
+  font-size: 12px;
+}
+.col ul li {
+  line-height: 1rem;
+}
+.col ul li a {
+  font-size: 12px;
+}
+.copy-right li a,
+.copy-right + p {
+  color: #dddddd;
+  font-size: 12px;
+}
