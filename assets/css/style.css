@@ -137,7 +137,6 @@ h6 {
 }
 .hidden-menu.h-active {
   left: 0;
-  display: block;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {

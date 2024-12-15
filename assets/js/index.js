@@ -19,11 +19,12 @@ $(".owl-carousel").owlCarousel({
 });
 
 // open sub menu function
-const hiddenMenu = document.getElementById('back-main-menu');
-function openHiddenMenu (){
+const hiddenMenu = document.getElementById("back-main-menu");
+function openHiddenMenu() {
   hiddenMenu.classList.add("h-active");
 }
 
-function closeHiddenMenu (){
-    hiddenMenu.classList.remove("h-active");
+function closeHiddenMenu() {
+  hiddenMenu.classList.remove("h-active");
+  event.stopPropagation(); // Prevent event bubbling
 }
