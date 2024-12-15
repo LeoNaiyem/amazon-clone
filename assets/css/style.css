@@ -123,7 +123,22 @@ h6 {
   color: #dddddd;
   font-size: 12px;
 }
-
+/* off canvas styles */
+.dcd-links {
+  list-style: none;
+}
+.offcanvas-body ul li:hover {
+  background: #eaeded;
+  cursor: pointer;
+}
+.hidden-menu {
+  left: 100%;
+  transition: 0.3s ease-in-out;
+}
+.hidden-menu.h-active {
+  left: 0;
+  display: block;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .search-container > .dropdown {
